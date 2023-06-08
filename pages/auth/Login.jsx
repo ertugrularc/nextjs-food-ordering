@@ -2,7 +2,7 @@ import { useFormik } from "formik";
 import Link from "next/link";
 import Input from "../../components/form/Input";
 import Title from "../../components/UI/Title";
-import { loginSchema } from "../../schema/login";
+import { loginSchema } from "@/schema/Login";
 import { getSession, useSession, signIn } from "next-auth/react"
 import { useRouter } from "next/router";
 import axios from "axios";
