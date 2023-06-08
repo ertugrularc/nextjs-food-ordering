@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import OutsideClickHandler from "react-outside-click-handler";
 import Title from "../UI/Title";
 import Image from "next/image";
-import { AiOutlineClose } from "react-icons/Ai";
+import { AiOutlineClose } from "react-icons/ai";
 import axios from "axios";
 import Input from "../form/Input";
 import { useRouter } from "next/router";
