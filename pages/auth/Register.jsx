@@ -3,7 +3,7 @@ import { useFormik } from "formik";
 import Link from "next/link";
 import Input from "../../components/form/Input";
 import Title from "../../components/UI/Title";
-import { registerSchema } from "../../schema/register";
+import { registerSchema } from "@/schema/Register";
 import { toast } from "react-toastify";
 import { useRouter } from "next/router";
 const Register = () => {
